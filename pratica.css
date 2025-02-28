@@ -1,0 +1,58 @@
+header {
+    background-color: #ee6f52;
+
+    text-align: center;
+
+    padding: 20px;
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 18px;
+
+    align-items: center;
+
+}
+
+header h1{
+
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+font-size: 75px;
+}
+
+header img{
+width: 130px;
+
+}
+
+.japa01{
+padding: 150px;
+background-color: #f28869;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+
+}
+
+
+.japa02{
+
+    padding: 140px;
+    background-color: #f7a181;
+    text-align: center;
+}
+
+.japa03{
+
+    padding: 155px;
+    background-image: url(imagens/banner-rodizio-de-sushi-em-brasilia.png);
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif; 
+    
+}
+
+
