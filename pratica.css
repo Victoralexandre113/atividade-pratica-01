@@ -15,44 +15,82 @@ header {
 
 }
 
-header h1{
+header h1 {
 
-font-family: Arial, Helvetica, sans-serif;
-color: black;
-font-size: 75px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 75px;
 }
 
-header img{
-width: 130px;
-
-}
-
-.japa01{
-padding: 150px;
-background-color: #f28869;
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 30px;
+header img {
+    width: 130px;
 
 }
 
+.japa01 {
+    padding: 150px;
+    background-color: #f28869;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 
-.japa02{
+}
+
+
+.japa01 p {
+    color: white;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    font-weight: 700;
+    /* grossura da letra*/
+}
+
+.japa02 {
 
     padding: 140px;
     background-color: #f7a181;
     text-align: center;
+    font-size: 35px;
+    font-weight: 500;
 }
 
-.japa03{
+.japa03 {
 
-    padding: 155px;
+    padding: 200px;
     background-image: url(imagens/banner-rodizio-de-sushi-em-brasilia.png);
     background-position: center;
     background-size: cover;
-    font-family: Arial, Helvetica, sans-serif; 
-    
+    background-repeat: no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
 }
 
 
+.japa03 button {
+    width: 150px;
+    /*largura*/
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.466);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+
+
+
+
+
+footer {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7a181;
+    padding: 80px;
+    color: black;
+    font-size: 20px;
+    
+}
