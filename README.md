@@ -2,7 +2,7 @@
  atividade pratica 01
 
 
-https://victoralexandre113.github.io/atividade-pratica-01/pratica.html
+
 
 
  <a href="https://victoralexandre113.github.io/atividade-pratica-01/pratica.html">
