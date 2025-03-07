@@ -60,6 +60,7 @@ header img {
 
     padding: 200px;
     background-image: url(imagens/banner-rodizio-de-sushi-em-brasilia.png);
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
