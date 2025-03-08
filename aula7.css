@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sigmar&family=Sixtyfour+Convergence&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sigmar&display=swap');
+
+
+/*estilizando o Header*/
+ header{
+padding: 30px;
+background-color: #000000; /**/
+display: flex; /**/
+justify-content: center; /* justificar conteudo no centro*/
+gap:10px;/*separar os elementos*/
+align-items: center; /*responsável por alinhar verticalmente os itens*/
+}
+
+/*ESTILIZANDO O ICONE*/
+ header i{
+color: goldenrod;
+font-size: 59px;
+
+ }
+
+ header h1{
+color: white;
+font-size: 60px;
+font-family: "Noto Sans", sans-serif;
+ }
+/*fim do cabeçalho*/
+
+/*inicio primeira sessão*/
+
+.quadrinhos1{
+padding: 150px; /*preenchimento do site*/
+background-color: #000000; /*cor de fundo*/
+display: flex; 
+justify-content: center; /* justificar conteudo no centro*/
+align-items: center; /*responsável por alinhar verticalmente os itens*/
+gap: 15px;
+}
+
+.quadrinhos1 img{
+ width: 600PX; /* largura da imagem*/
+ height: 500PX;/*altura da imagem*/
+}
+
+
+.quadrinhos1 p{
+    color: white;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.quadrinhos1 span{
+font-size: 60px;
+color: goldenrod;
+}
+/*Fim da Primeira Sessão*/
+
+/* Inicio Segunda Sessão*/
+
+.quadrinhos2{
+   padding: 140px; /*preenchimento do site*/
+   background-color: #000000; /*cor de fundo*/
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column; /*vai pegar tudo e transformar em coluna*/
+}
+
+.quadrinhos2 img{
+    font-size: 30px; /*tamanho da letra*/
+
+}
+.quadrinhos2 p {
+color: white;
+font-size: 30px; 
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+/*fim da sessão*/
+
+/*inicio da terceira sessão*/
+
+.quadrinhos3{
+background-image: url(imagens/batman-7713218_1280.png);
+padding: 200px;
+background-position: center; /*posição da imagem*/
+background-size: cover; /*preenhimento da imagem*/
+background-repeat: no-repeat; /*desabilitando repetição da imagem*/
+background-attachment: fixed; /*fixação da imagem*/
+display: flex;
+justify-content: center;
+
+}
+
+
+.quadrinhos3 button{
+padding: 9px;
+background-color:rgb(218, 165, 32);
+color: black;
+
+}
