@@ -4,99 +4,189 @@
 
 
 /*estilizando o Header*/
- header{
-padding: 30px;
-background-color: #000000; /**/
-display: flex; /**/
-justify-content: center; /* justificar conteudo no centro*/
-gap:10px;/*separar os elementos*/
-align-items: center; /*responsável por alinhar verticalmente os itens*/
+header {
+    padding: 30px; /*preenchimento da sessão*/
+    background-color: #000000;
+    /*imagem de fundo*/
+    display: flex;
+    /*alinhar as imagens lado a lado*/
+    justify-content: center;
+    /* justificar conteudo no centro*/
+    gap: 10px;
+    /*separar os elementos*/
+    align-items: center;
+    /*responsável por alinhar verticalmente os itens*/
 }
 
 /*ESTILIZANDO O ICONE*/
- header i{
-color: goldenrod;
-font-size: 59px;
+header i {
+    color: goldenrod;
+    font-size: 59px;
 
- }
+}
 
- header h1{
-color: white;
-font-size: 60px;
-font-family: "Noto Sans", sans-serif;
- }
+header h1 {
+    color: white;
+    /*cor da letra*/
+    font-size: 60px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.lista-menu ul {
+    display: flex;
+    /*tornando as (li) flex/lado a lado*/
+    gap: 15px;
+    /*espaço entre as li*/
+    justify-content: center;
+    /*justificar conteúdo no centro*/
+
+}
+
+.lista-menu ul li {
+    /*alteração na lista (li) (elemento filho)*/
+    list-style: none;
+    /*removendo o estilo de lista aplicado por padrão*/
+}
+
+.lista-menu ul li a {
+    text-decoration: none;
+    /*remoção do sublinhado (decoração de texo: nenhuma)*/
+    color: goldenrod;
+
+}
+
 /*fim do cabeçalho*/
 
 /*inicio primeira sessão*/
 
-.quadrinhos1{
-padding: 150px; /*preenchimento do site*/
-background-color: #000000; /*cor de fundo*/
-display: flex; 
-justify-content: center; /* justificar conteudo no centro*/
-align-items: center; /*responsável por alinhar verticalmente os itens*/
-gap: 15px;
+.quadrinhos1 {
+    padding: 150px;
+    /*preenchimento do site*/
+    background-color: #000000;
+    /*cor de fundo*/
+    display: flex;
+    justify-content: center;
+    /* justificar conteudo no centro*/
+    align-items: center;
+    /*responsável por alinhar verticalmente os itens*/
+    gap: 15px;
 }
 
-.quadrinhos1 img{
- width: 600PX; /* largura da imagem*/
- height: 500PX;/*altura da imagem*/
+.quadrinhos1 img {
+    width: 600PX;
+    /* largura da imagem*/
+    height: 500PX;
+    /*altura da imagem*/
 }
 
 
-.quadrinhos1 p{
+.quadrinhos1 p {
     color: white;
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.quadrinhos1 span{
-font-size: 60px;
-color: goldenrod;
+.quadrinhos1 span {
+    font-size: 60px;
+    color: goldenrod;
 }
+
 /*Fim da Primeira Sessão*/
 
 /* Inicio Segunda Sessão*/
 
-.quadrinhos2{
-   padding: 140px; /*preenchimento do site*/
-   background-color: #000000; /*cor de fundo*/
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column; /*vai pegar tudo e transformar em coluna*/
+.quadrinhos2 {
+    padding: 140px;
+    /*preenchimento do site*/
+    background-color: #000000;
+    /*cor de fundo*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*vai pegar tudo e transformar em coluna*/
 }
 
-.quadrinhos2 img{
-    font-size: 30px; /*tamanho da letra*/
+.quadrinhos2 img {
+    font-size: 30px;
+    /*tamanho da letra*/
 
 }
+
 .quadrinhos2 p {
-color: white;
-font-size: 30px; 
-font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
+
 /*fim da sessão*/
 
 /*inicio da terceira sessão*/
 
-.quadrinhos3{
-background-image: url(imagens/batman-7713218_1280.png);
-padding: 200px;
-background-position: center; /*posição da imagem*/
-background-size: cover; /*preenhimento da imagem*/
-background-repeat: no-repeat; /*desabilitando repetição da imagem*/
-background-attachment: fixed; /*fixação da imagem*/
-display: flex;
-justify-content: center;
+.quadrinhos3 {
+    background-image: url(imagens/batman-7713218_1280.png);
+    padding: 200px;
+    background-position: center;
+    /*posição da imagem*/
+    background-size: cover;
+    /*preenhimento da imagem*/
+    background-repeat: no-repeat;
+    /*desabilitando repetição da imagem*/
+    background-attachment: fixed;
+    /*fixação da imagem*/
+    display: flex; /* alinhando lado a lado*/
+    justify-content: center; /**/
+
+}
+/*fim da terceira sesssão*/
+
+/*começo da quarta sessão*/
+
+.sessao-04 { /*estilizando as div/caixas (total 3)*/
+padding: 150px; /* preenchimento da sessão*/
+background-color: grey; /* cor de fundo*/
+display: flex; /* deixando as div lado a lado*/
+gap: 10px; /* espaçamento entre as caixas*/
+justify-content: space-evenly; /*justificando oconteúdo*/
+}
+
+.sessao-04 div{
+    width: 300px; /*largura da imagem*/
+    height: 300px; /*altura da imagem*/
+    background-color: black; /*cor de fundo da caixa*/
+    color: white; /*cor da letra dentro das caixas*/
+}
+
+.quadrinhos3 button {
+    padding: 9px; /*preenchimento do button*/
+    background-color: rgb(218, 165, 32); /*cor de fundo*/
+    color: black; /* cor da letra*/
 
 }
 
+/*Final da terceira sessão*/
 
-.quadrinhos3 button{
-padding: 9px;
-background-color:rgb(218, 165, 32);
-color: black;
+footer {
+    padding: 30px;
+    /*preenhimento da página*/
+    background-color: black;
+    /*cor de fundo*/
+    text-align: center;
+    /* alinhar o texto ao centro*/
+}
+
+footer p {
+    color: rgb(218, 165, 32);
+    /*cor da letra*/
+    font-size: 25px;
+    /*tamanho da letra*/
+}
+
+footer i {
+    color: white;
+    /* cor da letra ou icone*/
+    font-size: 20px;
+    /*tamanho da letra*/
 
 }
