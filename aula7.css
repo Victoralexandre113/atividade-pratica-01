@@ -148,7 +148,7 @@ padding: 150px; /* preenchimento da sessão*/
 background-color: grey; /* cor de fundo*/
 display: flex; /* deixando as div lado a lado*/
 gap: 10px; /* espaçamento entre as caixas*/
-justify-content: space-evenly; /*justificando oconteúdo*/
+justify-content: space-evenly; /*justificando o posicionamento das caixas*/
 }
 
 .sessao-04 div{
@@ -156,6 +156,26 @@ justify-content: space-evenly; /*justificando oconteúdo*/
     height: 300px; /*altura da imagem*/
     background-color: black; /*cor de fundo da caixa*/
     color: white; /*cor da letra dentro das caixas*/
+    text-align: center; /*alinhando o texto ao centro*/
+    padding: 10px; /* padding da uma margem interna da caixa */
+}
+
+.div-02{
+background-image: url(imagens/quadro-decorativo-poster-Batman-HQ-01.png); /*inserindo a img*/
+background-size: cover; /*aplicando o preenchimento total*/
+}
+
+.div-01 i {
+color: goldenrod;
+
+}
+
+.div-03 img {
+    width: 100px;
+    height: 100px;
+    color: blue;
+    font-weight: 900    ; /*peso da fonte*/
+    line-height: 15px; /* distante da linhas*/
 }
 
 .quadrinhos3 button {
